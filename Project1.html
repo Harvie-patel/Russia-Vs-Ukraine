@@ -1,0 +1,143 @@
+<html>
+    <head>
+        <title>Russia Vs Ukraine</title>
+        <style>
+        @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Dongle:wght@400;700&family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Gideon+Roman&family=Great+Vibes&family=Lobster&family=Lobster+Two:ital,wght@1,700&family=Oleo+Script+Swash+Caps&family=Pacifico&family=Praise&family=Tangerine:wght@400;700&display=swap');
+        
+            *{
+                padding: 0;
+                margin: 0;
+                font-family: 'Lobster', cursive;
+            }
+        
+            body{
+                background: linear-gradient(#CC95C0,#DBD4B4,#7AA1D2);             
+                color: aliceblue;
+                text-align: center; 
+            }
+
+            .Navbar{
+                display: flex;
+                align-items: center;
+                justify-content: space-around;
+                background-color: lightcoral;
+                color: lightgoldenrodyellow;
+                height: 80px;
+                font-size: 10px;
+            }
+
+            .title{
+                font-size: 50px;
+                margin-bottom: 10px;
+            }
+            
+            .button{
+                border-radius: 5px;
+                height: 50px; 
+                width: 200px;
+            }
+            
+            .main{
+                background-color: grey;
+                display: flex;
+                justify-content: space-around;
+                width: 100%;
+                height: 100px;
+            }
+            
+            .Div-Ukraine{
+                background: lightgreen;
+            }
+
+            .Div-Russia{
+                background: lightskyblue;
+            }
+
+            .Div-Unknown{
+                background: lightsalmon;
+            }
+   
+            .links a{
+                text-decoration: none;
+                color: lightgoldenrodyellow;
+                margin-right: 30px;
+                font-size:  20px;
+            }
+
+            .links a:hover{
+                font-size: 30px;
+                color: lightgoldenrodyellow;
+            }
+
+        </style>
+    </head>
+    <body> 
+        <div class="NavBar">
+            <div class="Logo">
+            <img height="70" src="Ukraine.jpeg">
+            </div>
+            <div class="links">
+    <a href="Project1part2.html">Why Are Ukraine And Russia Fighting?</a>
+    <a href="Project1part3.html">Is There Going To Be WW3?</a>
+    <a href="Project1part4.html">Who Are The Main Characters?</a>
+    <img height="70" align="Right" src="Russia.jpeg">
+        </div>
+    </div>
+   
+    </div>
+        <u>
+        <h1 class="title">Russia Versus Ukraine</h1>
+        <h2>Who Do You Support?</h2>
+        </u>
+        <img width="1000" height="500" src="RussiaVsUkraine.jpeg">
+        <div class="main">
+            <table border="2">
+                <tr>
+                    <th style="background-color:lightskyblue">Russia Suppporters</th>
+                    <th style="background-color:lightgreen">Ukraine Supporters</th>
+                    <th style="background-color:lightslategrey">Haven't Voted</th>
+                    <th style="background-color:lightsalmon">Not Sure</th>
+                </tr>
+            <tr>
+                <td>1,938,468,967,43</td>
+                <td>1,938,468,967,43</td>
+                <td>5,896,534,895,643,939,47</td>
+                <td>53,389,464,89</td>
+    
+            </tr>
+            <div class="Div-Ukraine">
+                <h2>Vote Now!</h2>
+                <form action="Project1part6.html">
+                    <input onclick="onClick3()" class="button" value="Click Here To Support Ukraine" type="submit">
+                </form>
+            </div>
+            <div class="Div-Russia">
+                <h2>Vote Now!</h2>
+                <form action="Project1part5.html">
+                    <input onclick="onClick()" class="button" value="Click Here To Support Russia" type="submit">
+                </form>
+            </div>
+            <div class="Div-Unknown">
+                <h2>Vote Now!</h2>
+                <form>
+                    <input onclick="onClick2()" class="button" value="Click Here If You Not Sure" type="submit">
+                </form>
+            </div>
+        </div>
+    </body>
+    <script>
+
+        function onClick(){
+            alert("You Support Russia");
+        }
+
+        function onClick2(){
+            alert("You Are Not Sure");
+        }
+        
+        function onClick3(){
+            alert("You Support Ukraine");
+        }
+
+    </script>
+</html>
